@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <H1>Hola, cara de bola</H1>
+<ul>
+    <li ng-repeat="profile in profiles">
+        {% verbatim %}
+        {{profile}}
+        {% endverbatim %}
+    </li>
+</ul>
+{% endblock %}

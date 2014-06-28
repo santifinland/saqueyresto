@@ -1,0 +1,11 @@
+Django==1.6.5
+Markdown==2.4.1
+django-filter==0.7
+djangorestframework==2.3.14
+wsgiref==0.1.2
+
+# email confirmation with configurable user model
+https://github.com/nemesisdesign/django-email-confirmation/tarball/master#egg=emailconfirmation-0.1
+
+# versionable content
+django-reversion==1.8.1
